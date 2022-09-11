@@ -7,25 +7,27 @@ using Unit4.TurtleLib;
 
 namespace Turtle22
 {
-    internal class Program
+    internal partial class Program
     {
         static void Main(string[] args)
         {
-            Turtle t1 = new Turtle();
-
-            //t1.MoveBackward(200);
-            t1.SetDelay(200);
-            t1.TailDown();
-
-            t1.MoveForward(50);
-            t1.TurnRight(90);
-            t1.MoveForward(100);
-            t1.TurnLeft(90);
-
-            t1.MoveForward(50);
-            t1.TurnRight(90);
-            t1.MoveForward(100);
-            t1.TurnLeft(90);
+            Console.WriteLine("Do you want to run \nmain 1 (Turtle) or \n2 (Bucket)?\n\n\n\t\ttype 1 or 2");
+            int n = int.Parse(Console.ReadLine());
+            if (n == 1)
+            {
+                Main1();
+            }
+            else if (n == 2)
+            {
+                Main2();
+            }
+            else
+            {
+                Console.WriteLine("You selected an invalid option");
+            }
         }
+
+
+
     }
 }
