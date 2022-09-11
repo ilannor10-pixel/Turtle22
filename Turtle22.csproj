@@ -53,6 +53,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Program2Buckets.cs" />
     <Compile Include="Program1Turtle.cs" />
+    <Compile Include="Program3Frog.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
