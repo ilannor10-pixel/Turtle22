@@ -11,13 +11,14 @@ namespace Turtle22
     {
         static void Main3()
         {
-            BrownFrog f0 = new BrownFrog(0, "0");
-            BrownFrog f1 = new BrownFrog(1, "1");
-            BrownFrog f2 = new BrownFrog(2, "2");
+            BrownFrog f0 = new BrownFrog(4, "f0");
+            BrownFrog f1 = new BrownFrog(5, "f1");
+            BrownFrog f2 = new BrownFrog(6, "f2");
 
-            GreenFrog f3 = new GreenFrog(4, "4"); 
-            GreenFrog f5 = new GreenFrog(5, "5"); 
-            GreenFrog f6 = new GreenFrog(6, "6");
+            GreenFrog f4 = new GreenFrog(0, "f4"); 
+            GreenFrog f5 = new GreenFrog(1, "f5"); 
+            GreenFrog f6 = new GreenFrog(2, "f6");
+
 
         }
     }

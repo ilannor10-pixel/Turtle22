@@ -13,7 +13,7 @@ namespace Turtle22
         {
             Console.WriteLine("Do you want to run \nmain 1 (Turtle) or \n2 (Bucket)?\n3 (Frog)?" +
                 "\n\n\n\t\ttype 1, 2, or 3");
-            int n = int.Parse(Console.ReadLine());
+            int n = int.Parse(Console.ReadKey().KeyChar.ToString());
             if (n == 1)
             {
                 Main1();
